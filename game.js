@@ -20,3 +20,16 @@ function startGame() {
   }
 
   startGame();
+
+
+
+//   Write a function javascript in call isEmpty that returns true if an object has no property or false otherwise
+
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+  }
+
+console.log(isEmpty({}));              // true
+console.log(isEmpty({ name: "John" })); // false
+
+  
